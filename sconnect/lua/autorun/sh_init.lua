@@ -6,9 +6,9 @@ sconnect.enabled = true
 
 sconnect.config = {}
 sconnect.config.connection = {
-	["IP"] = "46.105.231.204:27025", //IP for the target server as a string with port included
+	["IP"] = "00.11.22.33:1234", //IP for the target server as a string with port included
 	["HasPassword"] = true, //Whether the target server has a password or not
-	["Password"] = "ExodusRP2019", //Password for the target server - will do nothing if HasPassword is false.
+	["Password"] = "password", //Password for the target server - will do nothing if HasPassword is false.
 }
 
 sconnect.config.area = {
