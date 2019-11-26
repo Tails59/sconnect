@@ -21,7 +21,7 @@ local function connectionConfirmDialog()
 	end
 
 	function frame:OnClose()
-		timer.Simple(2, function() //wait 5 seconds so they have time to get out of the zone thing
+		timer.Simple(2, function() //wait 2 seconds so they have time to get out of the zone thing
 			pl._sconnectDialog = false
 		end)
 	end
