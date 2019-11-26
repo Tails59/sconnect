@@ -9,6 +9,8 @@ sconnect.config.connection = {
 	["IP"] = "00.11.22.33:1234", //IP for the target server as a string with port included
 	["HasPassword"] = true, //Whether the target server has a password or not
 	["Password"] = "password", //Password for the target server - will do nothing if HasPassword is false.
+			//Note that the password is NOT secure, players will be able to retrieve it from their console logs.
+			//Do not use a password that is used for anything important like your RCON
 }
 
 sconnect.config.area = {
